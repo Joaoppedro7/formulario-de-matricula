@@ -65,20 +65,50 @@
               </div>
             </div>
           </fieldset>
-        </form>
-      </div>
-    </main>
+          <fieldset class="address">
+            <legend>Endereço Residencial</legend>
 
-    <aside>
-      <div class="aside-container">
-        <header>
-          <img src="assets/logo.svg" alt="Logo Estrelas do amanhã">
-          <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
-          <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
-        </header>
-        <img src="assets/Illustration.svg" alt="Ilustração de uma professora com crianças prestando atenção">
+            <div class="input-wrapper">
+              <label for="cep">CEP</label>
+              <input type="text" id="cep" name="cep">
+            </div>
+
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="street">Rua</label>
+                <input type="text" id="street" name="street" value="Rua das Flores" disabled>
+              </div>
+              <div class="input-wrapper flex-1">
+                <label for="number">Número</label>
+                <input type="number" id="number" name="number" value="123">
+              </div>
+            </div>
+            <div class="flex">
+              <div class="input-wrapper flex-2">
+                <label for="city">Cidade</label>
+                <input type="text" id="city" name="city" value="São Paulo" disabled>
+              </div>
+              <div class="input-wrapper flex-1">
+                <label for="state">Estado</label>
+                <input type="text" id="state" name="state" value="SP" disabled>
+              </div>
+            </div>
       </div>
-    </aside>
+      </fieldset>
+      </form>
+  </div>
+  </main>
+
+  <aside>
+    <div class="aside-container">
+      <header>
+        <img src="assets/logo.svg" alt="Logo Estrelas do amanhã">
+        <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
+        <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
+      </header>
+      <img src="assets/Illustration.svg" alt="Ilustração de uma professora com crianças prestando atenção">
+    </div>
+  </aside>
   </div>
 </body>
 
