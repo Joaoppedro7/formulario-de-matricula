@@ -49,3 +49,10 @@ aside {
     }
   }
 }
+
+@media (max-height: 800px) {
+  main,
+  aside {
+    padding: 2rem 4rem;
+  }
+}

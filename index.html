@@ -93,23 +93,46 @@
                 <input type="text" id="state" name="state" value="SP" disabled>
               </div>
             </div>
-      </div>
-      </fieldset>
-      </form>
-  </div>
-  </main>
+          </fieldset>
+          <fieldset class="gardian">
+            <legend>Informações do Responsável</legend>
+            <div class="input-wrapper">
+              <label for="gardian">Nome do Responsável</label>
+              <input type="text" id="gardian" name="gardian">
+              <small>Principal responsável legal e contato de emergência</small>
+            </div>
 
-  <aside>
-    <div class="aside-container">
-      <header>
-        <img src="assets/logo.svg" alt="Logo Estrelas do amanhã">
-        <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
-        <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
-      </header>
-      <img src="assets/Illustration.svg" alt="Ilustração de uma professora com crianças prestando atenção">
-    </div>
-  </aside>
+            <div class="input-wrapper">
+              <label for="phone">Telefone</label>
+              <input type="tel" id="phone" name="phone" placeholder="(10) 9 8765-4321">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mail">Email</label>
+              <input type="email" id="mail" name="mail" required>
+              <div class="error">
+                <img src="assets/icons/alert-circle.svg" alt="Ícone de alerta vermelho">
+                <span>Insirá um e-mail válido</span>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+
+
+    <aside>
+      <div class="aside-container">
+        <header>
+          <img src="assets/logo.svg" alt="Logo Estrelas do amanhã">
+          <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
+          <p>Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante.</p>
+        </header>
+        <img src="assets/Illustration.svg" alt="Ilustração de uma professora com crianças prestando atenção">
+      </div>
+    </aside>
   </div>
+
 </body>
 
 </html>
