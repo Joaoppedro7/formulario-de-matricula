@@ -14,6 +14,7 @@ button {
     &:hover,
     &:focus {
       background-color: #f3541c;
+      color: white;
     }
   }
 
