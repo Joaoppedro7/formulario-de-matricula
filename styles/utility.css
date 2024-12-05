@@ -1,0 +1,15 @@
+.desktop-only {
+  display: none;
+}
+.flex {
+  flex-direction: column;
+}
+
+@media (width>=80em) {
+  .desktop-only {
+    display: block;
+  }
+  .flex {
+    flex-direction: row;
+  }
+}
