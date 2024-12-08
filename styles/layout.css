@@ -1,11 +1,10 @@
 #app {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
 
   & aside {
     padding: 1.5rem;
     background-color: var(--surface-secondary);
-    order: 1;
 
     & .aside-container {
       max-width: 31rem;
@@ -21,7 +20,7 @@
   }
   & main {
     padding: 1.5rem;
-    order: 2;
+    
     & .main-container {
       max-width: 33rem;
       margin-left: auto;
